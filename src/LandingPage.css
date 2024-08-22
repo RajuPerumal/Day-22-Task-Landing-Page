@@ -1,0 +1,204 @@
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    padding: 1rem 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #333;
+  }
+  
+  .navbar-light .navbar-brand:hover {
+    color: #0056b3;
+  }
+  
+  .navbar-light .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .navbar-light .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Masthead */
+  .masthead {
+    position: relative;
+    background-color: #007bff;
+    background: url('./assets/img/bg-masthead.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  
+  .masthead .text-white {
+    color: white !important;
+  }
+  
+  .masthead h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .masthead .form-subscribe {
+    margin-top: 2rem;
+  }
+  
+  .masthead .form-control {
+    border-radius: 50px;
+    padding: 1rem;
+  }
+  
+  .masthead .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+  }
+  
+  .masthead .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Features Icons */
+  .features-icons {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .features-icons .features-icons-item {
+    max-width: 20rem;
+  }
+  
+  .features-icons .features-icons-icon {
+    height: 7rem;
+  }
+  
+  .features-icons .features-icons-icon i {
+    font-size: 4.5rem;
+  }
+  
+  .features-icons .features-icons-item h3 {
+    font-size: 1.25rem;
+  }
+  
+  .features-icons .features-icons-item p {
+    font-weight: 300;
+  }
+  
+  /* Showcase */
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  background-size: cover;
+  background-position: center;
+  min-height: 30rem;
+}
+
+.showcase .showcase-img:nth-child(1) {
+  background-image: url('https://img.freepik.com/free-photo/top-view-wooden-table-with-copy-space_23-2148798926.jpg');
+}
+
+.showcase .showcase-img:nth-child(2) {
+  background-image: url('https://img.freepik.com/free-photo/abstract-blurred-background_1298-146.jpg');
+}
+
+.showcase .showcase-img:nth-child(3) {
+  background-image: url('https://img.freepik.com/free-photo/abstract-blurred-background_1298-145.jpg');
+}
+
+/* Testimonials */
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  border-radius: 50%;
+}
+
+.testimonials .testimonial-item:nth-child(1) img {
+  background-image: url('https://img.freepik.com/free-photo/young-woman-smiling-with-long-hair_23-2149147991.jpg');
+}
+
+.testimonials .testimonial-item:nth-child(2) img {
+  background-image: url('https://img.freepik.com/free-photo/cheerful-young-man-smiling_23-2148821335.jpg');
+}
+
+.testimonials .testimonial-item:nth-child(3) img {
+  background-image: url('https://img.freepik.com/free-photo/young-woman-holding-coffee-cup_23-2149162021.jpg');
+}
+
+  
+  /* Call to Action */
+  .call-to-action {
+    position: relative;
+    padding: 5rem 0;
+    background-color: #007bff;
+    background: url('https://img.freepik.com/free-photo/abstract-blurred-background_1298-148.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .call-to-action h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .call-to-action .form-subscribe {
+    margin-top: 2rem;
+  }
+  
+  .call-to-action .form-control {
+    border-radius: 50px;
+    padding: 1rem;
+  }
+  
+  .call-to-action .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+  }
+  
+  .call-to-action .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .footer p {
+    margin: 0;
+    color: #6c757d;
+  }
+  
+  .footer .list-inline-item a {
+    color: #333;
+  }
+  
+  .footer .list-inline-item a:hover {
+    color: #0056b3;
+  }
+  
+  .footer .bi-facebook, .footer .bi-twitter, .footer .bi-instagram {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .footer .bi-facebook:hover, .footer .bi-twitter:hover, .footer .bi-instagram:hover {
+    color: #007bff;
+  }
+  
